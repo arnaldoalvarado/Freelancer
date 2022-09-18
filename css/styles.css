@@ -1,0 +1,55 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    /* paleta de colores*/
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-family: 'Krub', sans-serif;
+    font-size: 16px; /* 1 rem es igual a 10px */
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.titulo span {
+    font-size: 1.3rem;
+}
+
+.contenedor {
+    width: 70rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.nav-bg {
+    background-color:   var(--secundario);
+}
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--negro);
+}
